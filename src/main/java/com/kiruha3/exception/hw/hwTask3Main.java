@@ -16,10 +16,11 @@ public class hwTask3Main {
     private static void unicueWords(List<String> words) {
         List<String> unicueWords = new ArrayList<>();
         for (int word = 0; word < words.size(); word++) {
-                if (!unicueWords.contains(words.get(word).toLowerCase())) {
-                    unicueWords.add(words.get(word));
+            if (!unicueWords.contains(words.get(word).toLowerCase())) {
+                unicueWords.add(words.get(word));
             }
         }
+
         System.out.println(unicueWords);
     }
 }
