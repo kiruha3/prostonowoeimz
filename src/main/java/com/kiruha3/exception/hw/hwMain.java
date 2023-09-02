@@ -10,7 +10,7 @@ public class hwMain {
     }
     public static void oddNum(List<Integer> nums) {
         List<Integer> oddNums = new ArrayList<>();
-        for (int num = 0; num < nums.size(); num++) {
+        for (Integer num : nums) {
             if (nums.get(num) % 2 != 0) {
                 oddNums.add(nums.get(num));
             }
