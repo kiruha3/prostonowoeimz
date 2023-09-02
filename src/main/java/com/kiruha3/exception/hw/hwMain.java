@@ -15,6 +15,7 @@ public class hwMain {
                 oddNums.add(nums.get(num));
             }
         }
+
         System.out.println(oddNums);
 
     }

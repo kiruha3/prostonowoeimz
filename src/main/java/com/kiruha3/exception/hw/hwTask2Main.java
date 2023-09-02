@@ -20,6 +20,7 @@ public class hwTask2Main {
         }
         System.out.println(evenNums);
     }
+
 //    private static void evenNum(List<Integer> nums) {
 //        List<Integer> evenNums = new ArrayList<>();
 //        for (int num = 0; num < nums.size(); num++) {
