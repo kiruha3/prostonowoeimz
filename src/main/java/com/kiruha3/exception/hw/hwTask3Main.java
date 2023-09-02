@@ -1,7 +1,9 @@
 package com.kiruha3.exception.hw;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class hwTask3Main {
     public static void main(String[] args) {
@@ -14,13 +16,10 @@ public class hwTask3Main {
     }
 
     private static void unicueWords(List<String> words) {
-        List<String> unicueWords = new ArrayList<>();
-        for (int word = 0; word < words.size(); word++) {
-            if (!unicueWords.contains(words.get(word).toLowerCase())) {
-                unicueWords.add(words.get(word));
-            }
+        Set<String> unicueWords = new HashSet<>();
+        for (String word : words) {
+            unicueWords.add(word);
         }
-
         System.out.println(unicueWords);
     }
 }
