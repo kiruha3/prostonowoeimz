@@ -1,11 +1,9 @@
 package com.kiruha3.exception.hw;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class hwTask4Main {
+
     public static void main(String[] args) {
         List<String> strings = new ArrayList<>(List.of("один", "два", "три", "два", "три", "три"));
         unicueWords(strings);
@@ -21,6 +19,7 @@ public class hwTask4Main {
                 unicueWords.put(word, unicueWords.get(word) + 1);
             }
         }
+//        unicueWords.
         System.out.println(unicueWords.values());
 
     }
